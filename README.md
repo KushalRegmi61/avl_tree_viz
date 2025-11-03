@@ -15,7 +15,7 @@ It uses **Streamlit** for the interface and **Graphviz** for dynamic tree visual
 
 ## Live Demo
 
-Access the live demo here:  [Streamlit AVL Tree Visualizer](YOUR_LIVE_DEMO_LINK_HERE)
+Access the live demo here:  [Streamlit AVL Tree Visualizer](https://kushalregmi61-avl-tree-viz-app-lwpvoq.streamlit.app/)
 
 ---
 
