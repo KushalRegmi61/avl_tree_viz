@@ -49,25 +49,29 @@ avl_tree_visualizer/
 │   └── helpers.py          # Logging and pseudocode utilities
 └── README.md
 
-````
+```
 
 ---
 
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/kushalregmi61/avl_tree_viz.git
 cd avl-tree-visualizer
-````
+```
 
-2. Create and activate a virtual environment:
+
+2. Create Virtual Environment
 
 ```bash
+
 python -m venv .venv
 source .venv/bin/activate      # Linux/macOS
 .venv\Scripts\activate         # Windows
 ```
+
 
 3. Install dependencies:
 
