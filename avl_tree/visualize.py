@@ -1,12 +1,3 @@
-"""
-Visualization helpers using graphviz. Produces a graph where each node label contains:
-    value
-    height
-    balance factor
-
-Nodes with |balance| > 1 are colored red; else green.
-"""
-
 from typing import Optional
 from graphviz import Digraph, Source
 from .node import Node

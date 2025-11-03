@@ -1,10 +1,3 @@
-"""
-AVL Tree implementation with insert, delete, search, rotations and step logging.
-Each public operation returns a dict with:
-- 'logs': list[str] textual logs
-- 'steps': list[ { desc: str, graph: graphviz.Source } ] snapshots for step-by-step mode
-"""
-
 from __future__ import annotations
 from typing import Optional, List, Dict, Any
 from .node import Node

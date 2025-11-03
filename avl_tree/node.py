@@ -1,12 +1,3 @@
-"""
-Node dataclass for AVL tree.
-
-Attributes:
-    value: int
-    left: Optional[Node]
-    right: Optional[Node]
-    height: int
-"""
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
