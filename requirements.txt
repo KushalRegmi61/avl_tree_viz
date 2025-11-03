@@ -1,0 +1,5 @@
+# Python requirements for the Streamlit AVL Tree Visualizer
+streamlit>=1.20.0
+graphviz>=0.20.1
+dataclasses; python_version < "3.7"
+pytest>=7.0.0
