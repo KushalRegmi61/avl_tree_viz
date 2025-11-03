@@ -1,7 +1,3 @@
-"""
-Helper utilities: pseudocode generator, color utilities, and small helpers.
-"""
-
 from typing import Optional
 
 def pseudocode_for_last_action(action: Optional[str]) -> str:
