@@ -2,14 +2,15 @@
 # AVL Tree Visualizer
 
 An interactive Streamlit app to visualize **AVL Trees**.  
-Supports **insert**, **delete**, **search**, and **clear** operations with **automatic balancing** (LL, RR, LR, RL rotations) and step-by-step explanations.
+
+It Supports **insert**, **delete**, **search**, and **clear** operations with **automatic balancing** (LL, RR, LR, RL rotations) and step-by-step explanations.
 
 ---
 
 ## Overview
 
-This app is an educational tool for learning **self-balancing binary search trees (AVL Trees)**.  
-It uses **Streamlit** for the interface and **Graphviz** for dynamic tree visualization, showing node values, heights, and balance factors.
+- This app is an educational tool for learning **self-balancing binary search trees (AVL Trees)**.  
+- It uses **Streamlit** for the interface and **Graphviz** for dynamic tree visualization, showing node values, heights, and balance factors.
 
 ---
 
