@@ -1,25 +1,3 @@
-"""
-app.py
-Streamlit entrypoint for the AVL Tree Visualizer.
-
-Purpose:
-- Interactive educational AVL Tree visualizer using Streamlit + Graphviz.
-- Supports insert, delete, search, clear, and step-by-step educational mode.
-- Shows node value, height, balance factor, colors imbalanced nodes red, logs each operation and rotation.
-
-How to run:
-    pip install streamlit graphviz
-    streamlit run app.py
-
-Module interaction:
-- avl_tree.node -> Node dataclass (value, left, right, height)
-- avl_tree.avl  -> AVLTree class: insert, delete, search, rotations, step generator
-- avl_tree.visualize -> Graphviz rendering utilities
-- utils.helpers -> logging & pseudocode helpers
-
-Author: Fixed rerun logic to avoid Streamlit experimental_rerun() errors.
-"""
-
 from typing import Optional, Any, Dict
 import streamlit as st
 from avl_tree.avl import AVLTree
